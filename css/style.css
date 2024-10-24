@@ -1,0 +1,28 @@
+body {
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.navbar {
+    background-color: #ff7300; /* Color naranja */
+}
+.navbar a {
+    color: white !important;
+}
+.navbar-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+footer {
+    background-color: #ff7300; /* Color naranja */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.content {
+    flex: 1;
+    padding: 20px;
+}  
