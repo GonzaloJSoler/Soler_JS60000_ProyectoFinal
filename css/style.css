@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: #ffffff;
     min-height: 100vh;
@@ -5,7 +10,7 @@ body {
     flex-direction: column;
 }
 .navbar {
-    background-color: #ff7300; /* Color naranja */
+    background-color: #ff7300; 
 }
 .navbar a {
     color: white !important;
@@ -16,8 +21,12 @@ body {
     top: 0;
     z-index: 1000;
 }
+.color-btn{
+    background-color: #ff7300; 
+    color: white;
+}
 footer {
-    background-color: #ff7300; /* Color naranja */
+    background-color: #ff7300; 
     color: white;
     padding: 20px 0;
     text-align: center;
