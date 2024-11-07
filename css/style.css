@@ -28,6 +28,7 @@ body {
 footer {
     background-color: #ff7300; 
     color: white;
+    margin-top: 35px;
     padding: 20px 0;
     text-align: center;
 }
