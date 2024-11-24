@@ -25,6 +25,14 @@ body {
     background-color: #ff7300; 
     color: white;
 }
+#listaUsuarios div {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+#listaUsuarios div.visible {
+    opacity: 1;
+}
 footer {
     background-color: #ff7300; 
     color: white;
