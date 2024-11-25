@@ -71,29 +71,34 @@
                         <th>Email</th>
                     </tr>
                 </thead>
-                <tbody id="listaUsuarios" data-aos="fade-left"></tbody>
+                <tbody id="listaUsuarios" data-aos="fade-left">
+
+                </tbody>
             </table>
             <button class="btn color-btn mt-3" id="limpiarBtn" data-aos="zoom-in">Limpiar Registros</button>
         </div>
         <div class="container mt-4">
             <h2>Simulador de Calculos</h2>
-            <div class="mb-3">
-                <label for="numero1" class="form-label">Primer Número</label>
-                <input type="number" id="numero1" class="form-control">
-            </div>
-            <div class="mb-3">
-                <label for="numero2" class="form-label">Segundo Número</label>
-                <input type="number" id="numero2" class="form-control">
-            </div>
-            <div class="mb-3">
-                <label for="operacion" class="form-label">Operación</label>
-                <select id="operacion" class="form-select">
+            <div class="mt-2 calculo-container">
+                <label for="numero1">Número 1:</label>
+                <input type="number" class="form-control" id="numero1" placeholder="Ingresa un número" required>
+                
+                <label for="numero2">Número 2 (opcional):</label>
+                <input type="number" class="form-control" id="numero2" placeholder="Ingresa otro número">
+                
+                <label for="operacion">Seleccionar operación:</label>
+                <select class="form-select" id="operacion">
                     <option value="suma">Suma</option>
                     <option value="resta">Resta</option>
                     <option value="multiplicacion">Multiplicación</option>
+                    <option value="division">División</option>
+                    <option value="potenciacion">Potenciación</option>
+                    <option value="raiz">Raíz cuadrada</option>
+                    <option value="porcentaje">Porcentaje</option>
                 </select>
+                
+                <button class="mt-2 btn color-btn" id="calcularBtn">Calcular</button>
             </div>
-            <button class="btn color-btn" id="calcularBtn">Calcular</button>
             <div class="mt-3" id="resultadoCalculo"></div>
         </div>
     <footer>
